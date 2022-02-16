@@ -1,5 +1,4 @@
 import '../style/Librairie.css';
-import { API_URL, getBooks } from '../tools/constantes.js';
 
 
 const Librairie = () => {
