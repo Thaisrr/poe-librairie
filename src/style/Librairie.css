@@ -1,0 +1,15 @@
+.card {
+    overflow: hidden;
+    border: solid black;
+
+}
+
+.card img {
+    width: 100%;
+}
+
+.grid {
+    display: grid;
+    gap: 30px;
+    grid-template-columns: repeat(5, 1fr);
+}
