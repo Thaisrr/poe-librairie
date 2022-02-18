@@ -1,5 +1,7 @@
 .card {
     height: 400px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 8px gray;
 }
 
 .card-header {
@@ -8,7 +10,7 @@
 }
 
 .card-header img {
-    height: 100%;
+    width: 100%;
 }
 
 .card button {

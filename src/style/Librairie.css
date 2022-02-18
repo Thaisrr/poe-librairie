@@ -1,12 +1,3 @@
-.card {
-    overflow: hidden;
-    border: solid black;
-
-}
-
-.card img {
-    width: 100%;
-}
 
 .grid {
     display: grid;
