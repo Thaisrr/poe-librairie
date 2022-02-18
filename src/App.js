@@ -6,19 +6,17 @@ import {useState} from "react";
 
 function App() {
   const [isConnected, setConnected] = useState(false);
-    // useState pour le nom
+  const [name, setName] = useState("");
 
   return (
     <div className="App">
-      <Title/>
-        {/* Ici, afficher le nom
-        + passer les infos en props à Connexion
-        */}
-      <Connexion isConnected={isConnected} setConnected={setConnected}/>
-
+      <Title name={name}/>
+      <Connexion
+          isConnected={isConnected}
+          setConnected={setConnected}
+          setName={setName}
+      />
         { (isConnected)? <Librairie/> : <p>Veuillez vous connecter</p> }
-
-
     </div>
   );
 }

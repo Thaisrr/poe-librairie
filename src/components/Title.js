@@ -1,6 +1,10 @@
-const Title = () => (
+const Title = ({name}) => (
     <header>
-        <h1>Ma Librairie</h1>
+        {(name)?
+            <h1>Librairie de {name}</h1>
+            :
+            <h1>Ma Librairie</h1>
+        }
     </header>
 );
 
